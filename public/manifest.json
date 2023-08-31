@@ -1,0 +1,17 @@
+{
+    "name": "Delayed Clicker",
+    "version": "1.0.0",
+    "description": "Click a button after some amount of time",
+    "manifest_version": 3,
+    "author": "Catrina Torda",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Delayed Clicker"
+    },
+    "permissions": [
+        "contextMenus",
+        "storage",
+        "activeTab",
+        "scripting"
+    ]
+}
